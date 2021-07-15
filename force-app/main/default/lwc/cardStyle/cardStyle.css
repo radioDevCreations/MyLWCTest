@@ -1,0 +1,20 @@
+.my-card{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 4px;
+    margin: .5rem;
+    transition: .5s all;
+}
+.my-card-title{
+    font-size: large;
+    color: darkblue;
+    text-transform: uppercase;
+}
+.may-card-description{
+    margin-top: 8px;
+    font-style: normal;
+    color: #161920;
+}
+.my-card:hover{
+    background-color: aliceblue;
+}

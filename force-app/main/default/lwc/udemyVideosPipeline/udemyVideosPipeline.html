@@ -1,0 +1,10 @@
+<template>
+  <lightning-card title="Udemy Videos Pipeline">
+    <template for:each={todoVideos} for:item="video">
+      <div key={video.id} class="my-card">
+        <span class="my-card-title">{video.title}</span>
+        <p class="my-card-description">{video.description}</p>
+      </div>
+    </template>
+  </lightning-card>
+</template>
